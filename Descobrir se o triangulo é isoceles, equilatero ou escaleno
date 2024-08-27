@@ -1,0 +1,9 @@
+segmento1=int(input('Segmento de reta 1: '))
+segmento2=int(input('Segmento de reta 2: '))
+segmento3=int(input('Segmento de reta 3: '))
+if(segmento1 == segmento2 or segmento2 == segmento3 or segmento3 == segmento1):
+    print('O triangulo é ISÓCELES')
+elif(segmento1 == segmento2 == segmento3):
+    print('O triangulo é EQUILÁTERO')
+elif(segmento1 != segmento2 != segmento3):
+    print('O triangulo é ESCALENO')
